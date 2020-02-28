@@ -1,0 +1,11 @@
+#footer {
+  background-color: grey;
+  opacity: .5;
+  height: 30px;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  padding-top: 5px;
+  bottom: 0px;
+  position: fixed;
+}

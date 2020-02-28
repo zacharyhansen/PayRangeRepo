@@ -1,0 +1,55 @@
+#homepage-page {
+  margin-bottom: 40px;
+
+}
+
+.homepage-container {
+  min-width: 300px;
+  min-height: 200px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.device-card {
+  border: 2px solid lightgrey;
+  border-radius: 3px;
+  margin: 10px;
+  height: 65px;
+  padding: 5px;
+}
+
+
+.device-card > .id {
+  position: relative;
+  width: 60px;
+  height: 65px;
+  line-height: 65px;
+  float: left;
+  background: lightgrey;
+  text-align: center;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.device-card > .label {
+  font-size: 30px;
+}
+
+.device-card > .delete-button {
+  font-size: 30px;
+  font-weight: bolder;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  float: right;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
